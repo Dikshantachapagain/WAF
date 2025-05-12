@@ -34,7 +34,7 @@ const wafRules = {
         /DROP\s+TABLE/i,                   // Blocks DROP TABLE
     ],
     
-    // Command Injection Rules - Will block ; cat but allow | cat
+    // Command Injection Rules - Will block ;cat but allow | cat
     cmdi: [
         /;\s*cat/i,                         // Blocks ;cat
         /;\s*ls/i,                          // Blocks ;ls
