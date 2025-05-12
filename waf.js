@@ -8,7 +8,7 @@ const bodyParser = require('body-parser');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const TARGET_SERVER = 'http://localhost:80'; // DVWA server address
+const TARGET_SERVER = 'http://localhost:80'; // DVWA server address changing
 
 // Enable debugging
 const DEBUG = true;
