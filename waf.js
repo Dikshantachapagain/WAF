@@ -42,7 +42,7 @@ const wafRules = {
     ]
 };
 
-// WAF check function with verbose logging
+// WAF check function with verbose logginge
 function checkWafRules(content, type) {
     if (!content) return { blocked: false };
     
